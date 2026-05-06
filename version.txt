@@ -1,0 +1,8 @@
+{
+version_ID=
+            "1.0.0"
+source=
+            "https://drive.usercontent.google.com/uc?id=1PViy3SdQhrWXRkyKwst7BdUXjuiqFoZt&export=download"
+Descripción=
+             "Primera versión estable del juego"
+}
