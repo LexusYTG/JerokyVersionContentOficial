@@ -1,0 +1,32 @@
+{
+	{
+	tittle=	"90"
+		{
+		[ Jeroky Guia ]
+		}
+	subtittle=
+		{
+			indice=	"25"
+			{
+			[1 crafteo]	=		goto crafting_section
+			[2 naturaleza] =	goto nature_section
+			[3 enemigos] =		goto enemys_section
+			[4 estadisticas] =	goto statistics_sections
+			[5 menus] =			goto menu_sections
+			}
+		}
+	}
+	nature_section=
+	{
+	tittle= "30"
+		{
+		[sistema de crafteo]
+		}
+	text= 	"15"
+		{
+		[baila que la vida es buena]
+		[el murcielago NO ES SIEGOOOO]
+		[el mar tiene sonas donde el agua es tan profunda que si sacas un pez de ahi  ,este se infla]
+		}
+	}
+}
