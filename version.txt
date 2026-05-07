@@ -14,3 +14,11 @@ source=
 Descripción=
              "correxion de errores leves"
 }
+{
+version_ID=
+            "1.0.2"
+source=
+            "https://drive.usercontent.google.com/uc?id=1u5CK1fO1PvgBFtPQjvNt6a6Tve2gbnN2&export=download"
+Descripción=
+             "correxio en el sistema de mapeado ,se ha implementado un sistema de mapa completamente nuevo"
+}
