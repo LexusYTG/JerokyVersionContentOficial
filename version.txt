@@ -6,3 +6,11 @@ source=
 Descripción=
              "Primera versión estable del juego"
 }
+{
+version_ID=
+            "1.0.1"
+source=
+            "https://drive.usercontent.google.com/uc?id=14sdcWFMdDpcrCKyAjAsAGCuzR8GFhXDG&export=download"
+Descripción=
+             "correxion de errores leves"
+}
