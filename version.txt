@@ -22,3 +22,11 @@ source=
 Descripción=
              "correxio en el sistema de mapeado ,se ha implementado un sistema de mapa completamente nuevo"
 }
+{
+version_ID=
+            "1.0.3"
+source=
+            "https://drive.usercontent.google.com/uc?id=1IYtY2vgZFz0jcLyLaMM7RtsNSm-acmlX&export=download"
+Descripción=
+             "correxio de herrores criticos que causaban crashes por mala indentacion ,se ha implementado una mecanica nueva para poder plantar arboles"
+}
