@@ -2,7 +2,7 @@
 version_ID=
             "1.0.0"
 source=
-            "https://drive.usercontent.google.com/uc?id=1PViy3SdQhrWXRkyKwst7BdUXjuiqFoZt&export=download"
+            "https://drive.usercontent.google.com/uc?id=1Uj4PpGoj17RQJ5NZh8l3NTgulcy88wGq&export=download"
 Descripción=
              "Primera versión estable del juego"
 }
