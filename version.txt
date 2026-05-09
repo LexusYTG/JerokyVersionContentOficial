@@ -38,3 +38,11 @@ source=
 Descripción=
              "mejorasvisuales varias y correxiones de errores ,implementacion de nuevos crafteos / mecanicas"
 }
+{
+version_ID=
+            "1.0.5"
+source=
+            "https://drive.usercontent.google.com/u/0/uc?id=134QFHPjQWC7el5i2Z7uW9IDNbLR1L5xg&export=download"
+Descripción=
+             " !VERSION BETA! !GRAN mejora en la jugailidad y GRAN implementacion de sistemas de crafteos y mas!"
+}
