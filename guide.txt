@@ -2,7 +2,7 @@
 	{
 	tittle=	"80"
 		{
-		[ Jeroky — Guia Oficial ]
+		[ Jeroky — OBSOLETA ;SE REEMPLAZARA EN BREVES ]
 		}
 	subtittle=
 		{
