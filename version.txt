@@ -4,7 +4,7 @@ version_ID=
 source=
             "https://drive.usercontent.google.com/uc?id=1twOtKEOdFaPeLYjGhiAkRJ9LOgmBVBE7&export=download"
 Descripción=
-             "Primera versión estable del juego"
+             "!VERSION BETA! Primera versión estable del juego"
 }
 {
 version_ID=
@@ -12,7 +12,7 @@ version_ID=
 source=
             "https://drive.usercontent.google.com/uc?id=14sdcWFMdDpcrCKyAjAsAGCuzR8GFhXDG&export=download"
 Descripción=
-             "correxion de errores leves"
+             " !VERSION BETA! correxion de errores leves"
 }
 {
 version_ID=
@@ -20,7 +20,7 @@ version_ID=
 source=
             "https://drive.usercontent.google.com/uc?id=1u5CK1fO1PvgBFtPQjvNt6a6Tve2gbnN2&export=download"
 Descripción=
-             "correxio en el sistema de mapeado ,se ha implementado un sistema de mapa completamente nuevo"
+             " !VERSION BETA! correxio en el sistema de mapeado ,se ha implementado un sistema de mapa completamente nuevo"
 }
 {
 version_ID=
@@ -28,7 +28,7 @@ version_ID=
 source=
             "https://drive.usercontent.google.com/uc?id=1IYtY2vgZFz0jcLyLaMM7RtsNSm-acmlX&export=download"
 Descripción=
-             "correxio de herrores criticos que causaban crashes por mala indentacion ,se ha implementado una mecanica nueva para poder plantar arboles"
+             " !VERSION BETA! correxio de herrores criticos que causaban crashes por mala indentacion ,se ha implementado una mecanica nueva para poder plantar arboles"
 }
 {
 version_ID=
@@ -36,7 +36,7 @@ version_ID=
 source=
             "https://drive.usercontent.google.com/uc?id=1lza9SKumf-5IwNJ5QxcSGe4kxMu7VXPm&export=download"
 Descripción=
-             "mejorasvisuales varias y correxiones de errores ,implementacion de nuevos crafteos / mecanicas"
+             " !VERSION BETA! mejorasvisuales varias y correxiones de errores ,implementacion de nuevos crafteos / mecanicas"
 }
 {
 version_ID=
@@ -45,4 +45,12 @@ source=
             "https://drive.usercontent.google.com/u/0/uc?id=134QFHPjQWC7el5i2Z7uW9IDNbLR1L5xg&export=download"
 Descripción=
              " !VERSION BETA! !GRAN mejora en la jugailidad y GRAN implementacion de sistemas de crafteos y mas!"
+}
+{
+version_ID=
+            "1.0.6"
+source=
+            "https://drive.usercontent.google.com/uc?id=13NJXZatFv4UN8bIjY72sdBxmhL59U6y0&export=download"
+Descripción=
+             " !VERSION BETA! GRAN MEJORA EN JUGABLIDAD ,SE HAN COMPLETADO VAIOS SISTEMAS SE HAN CORRIGIDO VARIOS ERRORES Y SE HA REESCRITO UN 20 % DEL MOTOR "
 }
