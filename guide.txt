@@ -2,22 +2,31 @@
 	{
 	tittle=	"80"
 		{
-		[ Jeroky — OBSOLETA ;SE REEMPLAZARA EN BREVES ]
+		[ Cronicas de Supervivencia â€” Tribu Jeroky ]
+		}
+	text=	"14"
+		{
+		[ Forastero. Si estas leyendo esto, es que el bosque te escupio vivo. ]
+		[ Eso significa que el espiritu del monte aun tiene planes para vos. ]
+		[ O que sos demasiado terco para morir. En nuestra tribu, eso era lo mismo. ]
+		[ Yo fui el ultimo en salir. Los demas ya no estan. ]
+		[ Escucha bien lo que escribo. Cada palabra me costo sangre. ]
 		}
 	subtittle=
 		{
 			indice=	"22"
 			{
-			[1 Primeros Pasos]	=	goto primeros_pasos
-			[2 Controles]		=	goto controles
-			[3 Supervivencia]	=	goto supervivencia
-			[4 Crafteo]			=	goto crafteo
-			[5 Armas]			=	goto armas
-			[6 Enemigos]		=	goto enemigos
-			[7 Biomas]			=	goto biomas
-			[8 Menus y HUD]		=	goto menus_hud
-			[9 Construccion]	=	goto construccion
-			[10 Fauna]			=	goto fauna
+			[1 Primeros Pasos]			=	goto primeros_pasos
+			[2 Como Moverse]			=	goto controles
+			[3 Mantenerse con Vida]		=	goto supervivencia
+			[4 Fabricar Herramientas]	=	goto crafteo
+			[5 Las Armas]				=	goto armas
+			[6 Los Enemigos]			=	goto enemigos
+			[7 Las Tierras]				=	goto biomas
+			[8 Menus y HUD]				=	goto menus_hud
+			[9 Construccion]			=	goto construccion
+			[10 La Fauna]				=	goto fauna
+			[11 Historia del Portador]	=	goto historia
 			}
 		}
 	}
@@ -29,21 +38,23 @@
 		{
 		[ Primeros Pasos ]
 		}
-	text=	"16"
+	text=	"15"
 		{
-		[ Empezas con una PM-9 Pistol con 5 balas, un Combat Knife y un Hatchet. ]
-		[ El mundo esta dividido en Biomas. Cada bioma tiene 5 zonas. ]
-		[ Para avanzar de zona encontra y usa la salida del mapa (EXIT). ]
-		[ El objetivo final es sobrevivir todos los biomas y llegar al Bunker. ]
-		[ Gestion del inventario y recursos es clave desde el principio. ]
-		[ Los primeros pasos cruciales: busca municion, comida y materiales para craftear. ]
+		[ Abris los ojos con una PM-9 Pistol, 5 balas contadas, un Combat Knife y un Hatchet. ]
+		[ No son muchas cosas. Pero nosotros comenzamos con menos, y llegamos lejos. ]
+		[ El mundo esta partido en Biomas. Cuatro tierras distintas, cada una con cinco zonas. ]
+		[ Veinte cruces antes del descanso final. Encontra la salida marcada EXIT en cada zona. ]
+		[ El objetivo no es pelear. Es llegar. Llegar vivo al Bunker. ]
+		[ Lo primero que debes hacer: busca municion, comida y materiales para fabricar. ]
+		[ El que acumula sin pensar carga peso muerto. El que planifica, sobrevive. ]
 		}
 	subtittle=
 		{
 			indice=	"18"
 			{
-			[Ver controles]		=	goto controles
-			[Ver supervivencia]	=	goto supervivencia
+			[Ver como moverse]		=	goto controles
+			[Ver supervivencia]		=	goto supervivencia
+			[Volver al indice]		=	goto primeros_pasos
 			}
 		}
 	}
@@ -53,48 +64,48 @@
 	{
 	tittle=	"35"
 		{
-		[ Controles ]
+		[ Como Moverse ]
 		}
 	subtittle=	"20"
 		{
-		[ Movimiento ]
+		[ El cuerpo ]
 		}
 	text=	"15"
 		{
-		[ WASD — Mover al jugador. ]
-		[ Shift izquierdo — Sprint (consume stamina mas rapido). ]
-		[ Ctrl izquierdo — Sigilo (velocidad 45%, enemigos te ven a menor rango). ]
+		[ WASD â€” Mover los pies. Lo mas basico. No lo olvides nunca. ]
+		[ Shift izquierdo â€” Correr. Gasta stamina rapido. Usalo cuando importa. ]
+		[ Ctrl izquierdo â€” Sigilo. Vas al 45 porciento de velocidad. Los enemigos te ven a menor rango. ]
 		}
 	subtittle=	"20"
 		{
-		[ Combate ]
+		[ El combate ]
 		}
 	text=	"15"
 		{
-		[ Click izquierdo — Disparar o atacar cuerpo a cuerpo. ]
-		[ R — Recargar el arma equipada. ]
-		[ E — Ataque cuerpo a cuerpo rapido. ]
-		[ Rueda del mouse — Hacer zoom en el mapa. ]
+		[ Click izquierdo â€” Disparar o golpear cuerpo a cuerpo. ]
+		[ R â€” Recargar el arma en mano. Hazlo antes de necesitarlo. ]
+		[ E â€” Golpe rapido cuerpo a cuerpo. 25 de dano. Alcance corto. ]
+		[ Rueda del mouse â€” Hacer zoom en el mapa. ]
 		}
 	subtittle=	"20"
 		{
-		[ Interaccion ]
+		[ La interaccion ]
 		}
 	text=	"15"
 		{
-		[ F — Interactuar (abrir puertas, saquear enemigos, comerciar, entrar refugio). ]
-		[ G — Recoger hojas de arbustos cercanos o guijarros del suelo. ]
-		[ I — Abrir o cerrar inventario. ]
-		[ M — Abrir o cerrar mapa del mundo. ]
-		[ B — Abrir menu de construccion. ]
-		[ Escape — Pausa y guardar partida. ]
+		[ F â€” Interactuar. Abre puertas, saquea enemigos, comercia, entra al refugio. ]
+		[ G â€” Recoger hojas de arbustos o guijarros del suelo cercano. ]
+		[ I â€” Abrir o cerrar el inventario. ]
+		[ M â€” Abrir o cerrar el mapa del mundo. ]
+		[ B â€” Abrir el menu de construccion. ]
+		[ Escape â€” Pausar y guardar la partida. ]
 		}
 	subtittle=
 		{
 			indice=	"18"
 			{
-			[Volver al indice]	=	goto primeros_pasos
-			]
+			[Volver al indice]		=	goto primeros_pasos
+			}
 		}
 	}
 
@@ -103,62 +114,63 @@
 	{
 	tittle=	"35"
 		{
-		[ Supervivencia ]
+		[ Mantenerse con Vida ]
 		}
 	subtittle=	"20"
 		{
-		[ Vida y Curacion ]
+		[ La sangre y su cura ]
 		}
 	text=	"15"
 		{
-		[ HP maximo: 100. Si llega a 0 es game over. ]
-		[ Bandage — Cura 15 HP en 1.5 segundos. ]
-		[ Med Kit — Cura 50 HP pero tarda 4 segundos. ]
-		[ Estimulante — Cura 20 HP y 10 de radiacion. Rapido (1 segundo). ]
-		[ Comida enlatada — Cura 8 HP. Pan — cura 5 HP. Vodka — 10 HP y 5 rad. ]
-		[ Adrenalina — No cura pero aumenta velocidad 55% por 12 segundos. ]
-		[ Morfina — Suprime el dolor por 20 segundos. Produce vision borrosa. ]
+		[ HP maximo: 100. Si llega a 0, todo termina. ]
+		[ Bandage â€” Cura 15 HP en 1.5 segundos. Detiene el sangrado tambien. ]
+		[ Med Kit â€” Cura 50 HP. Tarda 4 segundos. Guardalo para cuando de verdad lo necesites. ]
+		[ Estimulante â€” Cura 20 HP y 10 de radiacion. Rapido, 1 segundo. ]
+		[ Comida enlatada â€” Cura 8 HP. Pan â€” 5 HP. Vodka â€” 10 HP y quita 5 de radiacion. ]
+		[ Adrenalina â€” No cura pero aumenta velocidad al 55 porciento por 12 segundos. ]
+		[ Morfina â€” Suprime el dolor por 20 segundos. Produce vision borrosa. Cuidado. ]
 		}
 	subtittle=	"20"
 		{
-		[ Stamina ]
+		[ La fuerza de las piernas ]
 		}
 	text=	"15"
 		{
-		[ Stamina maxima: 100. Se regenera a 20 por segundo en reposo. ]
+		[ Stamina maxima: 100. Se regenera a 20 por segundo cuando estas quieto. ]
 		[ Sprint consume 40 de stamina por segundo. ]
-		[ Al agotarse la stamina el sprint se detiene automaticamente. ]
+		[ Al agotarse la stamina el sprint se detiene solo. No lo fuerces. ]
 		}
 	subtittle=	"20"
 		{
-		[ Radiacion ]
+		[ La tierra envenenada ]
 		}
 	text=	"15"
 		{
 		[ La radiacion se acumula en zonas contaminadas e industriales. ]
-		[ Por encima de 30 puntos de radiacion empeza a perder HP continuamente. ]
-		[ Anti-Rad — Reduce 40 puntos de radiacion. Tarda 2 segundos en usarse. ]
-		[ Stalker Parka — Otorga 15 puntos de defensa anti-radiacion. ]
-		[ Gas Mask — Otorga 20 puntos de defensa anti-radiacion (mejor del juego). ]
+		[ Por encima de 30 puntos de radiacion empezas a perder HP continuamente. ]
+		[ Anti-Rad â€” Reduce 40 puntos de radiacion. Tarda 2 segundos en usarse. ]
+		[ Stalker Parka â€” Otorga 15 puntos de defensa anti-radiacion. ]
+		[ Gas Mask â€” Otorga 20 puntos de defensa anti-radiacion. La mejor proteccion del juego. ]
 		[ El Vodka tambien reduce 5 puntos de radiacion ademas de curar HP. ]
 		}
 	subtittle=	"20"
 		{
-		[ Sangrado ]
+		[ El sangrado ]
 		}
 	text=	"15"
 		{
 		[ Ciertos ataques enemigos pueden causar sangrado. ]
-		[ El sangrado drena HP con el tiempo hasta que se cura. ]
+		[ El sangrado drena HP con el tiempo hasta que lo cures. ]
 		[ Usa un Bandage para detener el sangrado rapidamente. ]
+		[ No ignores el sangrado. En nuestra tribu los que lo ignoraban no duraban. ]
 		}
 	subtittle=
 		{
 			indice=	"18"
 			{
-			[Ver crafteo]		=	goto crafteo
+			[Ver fabricacion]	=	goto crafteo
 			[Volver al indice]	=	goto primeros_pasos
-			]
+			}
 		}
 	}
 
@@ -167,69 +179,70 @@
 	{
 	tittle=	"35"
 		{
-		[ Crafteo ]
+		[ Fabricar Herramientas ]
 		}
 	subtittle=	"20"
 		{
-		[ Crafteo de Madera (drag and drop con el Hacha) ]
+		[ La madera y el hacha ]
 		}
 	text=	"15"
 		{
-		[ Arrastra el Hatchet sobre objetos para transformarlos. ]
-		[ Tronco (Log) → 4x Astillas (Wood Chip). ]
-		[ Astillas (Wood Chip) → Tablillas (Plank). ]
-		[ Tablillas (Plank) → 2x Palos (Stick). ]
+		[ Arrastra el Hatchet sobre objetos en el inventario para transformarlos. ]
+		[ Tronco â€” da 4 Astillas (Wood Chip). ]
+		[ Astillas â€” dan Tablillas (Plank). ]
+		[ Tablillas â€” dan 2 Palos (Stick). ]
 		[ Los troncos caen al talar arboles caidos con el hacha. ]
 		[ Las hojas se recogen de arbustos con la tecla G. ]
-		[ 2 Hojas (Leaf) combinadas en el inventario = 1 Cuerda (Rope). ]
+		[ 2 Hojas (Leaf) combinadas en el inventario dan 1 Cuerda (Rope). ]
 		}
 	subtittle=	"20"
 		{
-		[ Crafteo Electronico (drag and drop en inventario) ]
+		[ Fabricacion electronica ]
 		}
 	text=	"15"
 		{
-		[ PCB + Bateria → Nucleo EMP. ]
-		[ PCB + Cable → Circuito de Lampara. ]
-		[ Circuito de Lampara + Bateria → Linterna Frontal (Head Lamp). ]
-		[ Nucleo EMP + Cable → Carga EMP. ]
-		[ Filtro + Filtro → Filtro Doble. ]
-		[ Filtro Doble + Cable → Anti-Rad casero. ]
-		[ Perno (Bolt) + Palo (Stick) → Virote de Ballesta (ammo para crossbow). ]
+		[ PCB + Bateria â€” Nucleo EMP. ]
+		[ PCB + Cable â€” Circuito de Lampara. ]
+		[ Circuito de Lampara + Bateria â€” Linterna Frontal (Head Lamp). ]
+		[ Nucleo EMP + Cable â€” Carga EMP. ]
+		[ Filtro + Filtro â€” Filtro Doble. ]
+		[ Filtro Doble + Cable â€” Anti-Rad casero. ]
+		[ Perno (Bolt) + Palo (Stick) â€” Virote de Ballesta (municion para crossbow). ]
 		}
 	subtittle=	"20"
 		{
-		[ Crafteo de Resortera ]
+		[ La resortera ]
 		}
 	text=	"15"
 		{
-		[ 2 Cuerdas Pequenas → Suela Sencilla. ]
-		[ Tablilla → Mango de Resortera. ]
-		[ Mango + 2 Cuerdas Pequenas → Resortera sin suela. ]
-		[ Resortera sin suela + Suela Sencilla → Resortera completa. ]
+		[ 2 Cuerdas Pequenas â€” Suela Sencilla. ]
+		[ Tablilla â€” Mango de Resortera. ]
+		[ Mango + 2 Cuerdas Pequenas â€” Resortera sin suela. ]
+		[ Resortera sin suela + Suela Sencilla â€” Resortera completa. ]
 		[ La Resortera usa Guijarros (Pebble) como municion. ]
 		[ Los guijarros aparecen cerca de rocas grandes y se recogen con G. ]
 		}
 	subtittle=	"20"
 		{
-		[ Cocinado en Fogata ]
+		[ El fuego y la carne ]
 		}
 	text=	"15"
 		{
-		[ Construi una fogata con el menu B (5 Palos + 5 Astillas). ]
-		[ Arrastra carne cruda desde el inventario a la fogata. ]
-		[ A los 15 segundos la carne esta cocinada (3x mas curacion). ]
-		[ A los 25 segundos se quema (minima curacion). ]
-		[ A los 40 segundos se convierte en Carbon (sin valor nutritivo). ]
+		[ Construi una fogata con el menu B usando 5 Palos y 5 Astillas. ]
+		[ Arrastra carne cruda desde el inventario a la fogata en el mapa. ]
+		[ A los 15 segundos la carne esta cocinada. Cura tres veces mas. ]
+		[ A los 25 segundos se quema. Cura muy poco. ]
+		[ A los 40 segundos se convierte en Carbon. Ya no sirve para comer. ]
+		[ Aprende los tiempos. El fuego no espera. ]
 		}
 	subtittle=
 		{
 			indice=	"18"
 			{
-			[Ver armas]			=	goto armas
-			[Ver construccion]	=	goto construccion
-			[Volver al indice]	=	goto primeros_pasos
-			]
+			[Ver armas]				=	goto armas
+			[Ver construccion]		=	goto construccion
+			[Volver al indice]		=	goto primeros_pasos
+			}
 		}
 	}
 
@@ -238,52 +251,53 @@
 	{
 	tittle=	"35"
 		{
-		[ Armas ]
+		[ Las Armas ]
 		}
 	subtittle=	"20"
 		{
-		[ Armas de Fuego ]
+		[ Armas de fuego ]
 		}
 	text=	"15"
 		{
-		[ PM-9 Pistol — Pistola inicial. 22 dmg, 15 balas. Usa municion 9mm. ]
-		[ MP5 — SMG rapida. 20 dmg, 30 balas. Usa 9mm. Cadencia muy alta. ]
-		[ AKS-74U — Rifle asalto. 30 dmg, 30 balas. Usa 5.45x39. Versatil. ]
-		[ M870 Shotgun — Escopeta. 18 dmg x8 perdigones, 6 tiros. Usa 12g. ]
-		[ Sawn-Off — Escopeta recortada. 22 dmg x6 perdigones, 2 tiros. Compacta. ]
-		[ SVD Sniper — Francotirador. 85 dmg, 10 balas. Usa 7.62x54R. Alto alcance. ]
-		[ Silent Crossbow — Silenciosa. 55 dmg, 1 virote. Usa Bolts. Sigilosa. ]
-		[ Grenade Launcher — 70 dmg en area. 3 tiros. Usa 40mm. Muy peligroso. ]
+		[ PM-9 Pistol â€” La pistola con la que despertas. 22 de dano. 15 balas. Usa municion 9mm. ]
+		[ MP5 â€” Subfusil rapido. 20 de dano. 30 balas. Usa 9mm. Cadencia muy alta. ]
+		[ AKS-74U â€” Rifle de asalto. 30 de dano. 30 balas. Usa 5.45x39. Versatil y confiable. ]
+		[ M870 Shotgun â€” Escopeta. 18 de dano por 8 perdigones. 6 tiros. Usa 12g. ]
+		[ Sawn-Off â€” Escopeta recortada. 22 de dano por 6 perdigones. Solo 2 tiros. Compacta. ]
+		[ SVD Sniper â€” Francotirador. 85 de dano. 10 balas. Usa 7.62x54R. Alto alcance. ]
+		[ Silent Crossbow â€” Ballesta silenciosa. 55 de dano. 1 virote. Usa Bolts. Para el sigilo. ]
+		[ Grenade Launcher â€” 70 de dano en area. 3 tiros. Usa granadas 40mm. Muy peligroso. ]
 		}
 	subtittle=	"20"
 		{
-		[ Armas Cuerpo a Cuerpo ]
+		[ Armas cuerpo a cuerpo ]
 		}
 	text=	"15"
 		{
-		[ Combat Knife — 35 dmg clic. Agitar el mouse para ataques de barrido rapidos. ]
-		[ Hatchet — 55 dmg clic. Mas lento pero mas daño. Tambien sirve para craftear. ]
-		[ Ataque cuerpo a cuerpo base (E) — 25 dmg. Sin arma equipada. Alcance 45px. ]
+		[ Combat Knife â€” 35 de dano por click. Agita el mouse para ataques de barrido rapidos. ]
+		[ Hatchet â€” 55 de dano por click. Mas lento pero mas destructivo. Tambien sirve para fabricar. ]
+		[ Golpe base con E â€” 25 de dano. Sin arma equipada. Alcance de 45 pixeles. ]
 		}
 	subtittle=	"20"
 		{
-		[ Arma Primitiva ]
+		[ Armas primitivas ]
 		}
 	text=	"15"
 		{
-		[ Resortera — 8 dmg por guijarro. Alcance 180px. Crafteable. ]
-		[ Util como arma silenciosa de apoyo y para matar animales. ]
+		[ Resortera â€” 8 de dano por guijarro. Alcance de 180 pixeles. Se puede fabricar. ]
+		[ Util como arma silenciosa y para cazar animales sin gastar municion de fuego. ]
+		[ Los antiguos de la tribu la llamaban el arma del paciente. Aprendelo bien. ]
 		}
 	subtittle=	"20"
 		{
-		[ Modificaciones de Armas ]
+		[ Modificaciones ]
 		}
 	text=	"15"
 		{
-		[ 4x Scope — Aumenta rango 120px y reduce dispersion 40%. ]
-		[ Suppressor — Silencia el arma. Reduce 5 de daño. ]
-		[ Extended Mag — Aumenta la capacidad del cargador 50%. ]
-		[ Los mods se encuentran en el mapa y se aplican arrastrando sobre el arma. ]
+		[ 4x Scope â€” Aumenta el rango 120 pixeles y reduce dispersion un 40 porciento. ]
+		[ Suppressor â€” Silencia el arma. Reduce 5 de dano como costo. ]
+		[ Extended Mag â€” Aumenta la capacidad del cargador un 50 porciento. ]
+		[ Los mods se encuentran en el mapa. Se aplican arrastrando el mod sobre el arma en el inventario. ]
 		}
 	subtittle=
 		{
@@ -291,7 +305,7 @@
 			{
 			[Ver enemigos]		=	goto enemigos
 			[Volver al indice]	=	goto primeros_pasos
-			]
+			}
 		}
 	}
 
@@ -300,72 +314,72 @@
 	{
 	tittle=	"35"
 		{
-		[ Enemigos ]
+		[ Los Enemigos ]
 		}
 	subtittle=	"20"
 		{
-		[ Enemigos Humanos ]
+		[ Los hombres que perdieron su camino ]
 		}
 	text=	"15"
 		{
-		[ Bandit — 60 HP. Pistola. Comun en el Yermo y Ciudad. ]
-		[ Guard/Soldier — 80 HP. Rifle. Mas resistente y con mayor alcance. ]
-		[ Sniper — 50 HP. Rifle de francotirador. Lento pero mata de 1 tiro a distancia. ]
-		[ Runner — 40 HP. Huye cuando pierde mas del 60% de vida y alerta a otros. ]
-		[ Grenadier — 100 HP. Lanza granadas a 300px. Muy peligroso en grupos. ]
-		[ Prowler — 70 HP. Se tira al suelo al recibir daño. Difícil de ver. ]
+		[ Bandit â€” 60 HP. Pistola. Comun en el Yermo y en la Ciudad Muerta. ]
+		[ Guard / Soldier â€” 80 HP. Rifle. Mas resistente y con mayor alcance de vision. ]
+		[ Sniper â€” 50 HP. Rifle de francotirador. Lento pero puede matarte de un tiro a distancia. ]
+		[ Runner â€” 40 HP. Huye cuando pierde mas del 60 porciento de vida y alerta a los demas. ]
+		[ Grenadier â€” 100 HP. Lanza granadas a 300 pixeles. Muy peligroso en grupos. ]
+		[ Prowler â€” 70 HP. Se tira al suelo al recibir dano. Dificil de ver entre las sombras. ]
 		}
 	subtittle=	"20"
 		{
-		[ Enemigos Muertos / Mutantes ]
+		[ Los que ya no son humanos ]
 		}
 	text=	"15"
 		{
-		[ Zombie — 90 HP. Solo cuerpo a cuerpo. Lento pero aguantador. ]
-		[ Mutant — 150 HP. Cuerpo a cuerpo. Rapido y muy resistente. ]
+		[ Zombie â€” 90 HP. Solo cuerpo a cuerpo. Lento pero aguantador. No lo subestimes en grupos. ]
+		[ Mutant â€” 150 HP. Cuerpo a cuerpo. Rapido y muy resistente. Evitalo si podes. ]
 		}
 	subtittle=	"20"
 		{
-		[ Fauna Hostil ]
+		[ Las bestias ]
 		}
 	text=	"15"
 		{
-		[ Wolf — 55 HP. Muy rapido (145 px/s). Ataque en manada. Su mordida ralentiza 25% por 2s. ]
-		[ Boar / Jabali — 80 HP. En manada es menos agresivo. Solo se vuelve muy peligroso. ]
+		[ Wolf â€” 55 HP. Muy rapido, 145 pixeles por segundo. Atacan en manada. Su mordida ralentiza un 25 porciento por 2 segundos. ]
+		[ Boar â€” 80 HP. En manada es menos agresivo. Solo se vuelve peligroso de verdad. ]
 		}
 	subtittle=	"20"
 		{
-		[ Jefes de Bioma ]
+		[ Los jefes ]
 		}
 	text=	"15"
 		{
-		[ Cada bioma tiene 1 jefe en la ultima zona (zona 5). ]
-		[ Alpha Wolf — Jefe del Yermo. Lobo alfa con HP y daño elevados. ]
-		[ Boss Heavy — Jefe de la Ciudad. Humano blindado y lento pero devastador. ]
-		[ Boss Commander — Jefe Industrial. Comandante con apoyo tactico. ]
-		[ Boss Mutant Lord — Jefe del Bunker. El enemigo final. ]
-		[ Los jefes siempre dropean un arma especial al morir. ]
+		[ Cada bioma tiene un jefe en la ultima zona, la zona 5. ]
+		[ Alpha Wolf â€” Jefe del Yermo. Lobo alfa con HP y dano elevados. ]
+		[ Boss Heavy â€” Jefe de la Ciudad Muerta. Humano blindado, lento pero devastador. ]
+		[ Boss Commander â€” Jefe de la Zona Industrial. Comandante con apoyo tactico. ]
+		[ Boss Mutant Lord â€” Jefe del Bunker. El enemigo final. El que termina todo. ]
+		[ Los jefes siempre sueltan un arma especial al morir. No desperdicies esa oportunidad. ]
 		}
 	subtittle=	"20"
 		{
-		[ Consejos de Combate ]
+		[ Sabiduria del combate ]
 		}
 	text=	"15"
 		{
-		[ El sigilo (Ctrl) reduce el rango de vision enemiga al 40%. ]
-		[ La niebla (fog) reduce el rango de vision de los enemigos al 45%. ]
-		[ La lluvia reduce el radio en que los enemigos escuchan tus pasos al 15%. ]
-		[ Usa humo (Smoke Grenade) para escapar o reposicionarte. ]
-		[ EMP Charge aturde a todos los enemigos en 150px por 5 segundos. ]
-		[ Las trampas de mina hacen 60 dmg en 55px de radio. Cuidado con pisarlas. ]
+		[ El sigilo reduce el rango de vision enemiga al 40 porciento. Usalo. ]
+		[ La niebla reduce el rango de vision enemiga al 45 porciento. La niebla es tu aliada. ]
+		[ La lluvia reduce el radio en que los enemigos escuchan tus pasos al 15 porciento. ]
+		[ Usa granadas de humo para escapar o reposicionarte sin ser visto. ]
+		[ La Carga EMP aturde a todos los enemigos en 150 pixeles por 5 segundos. ]
+		[ Las trampas de mina hacen 60 de dano en 55 pixeles de radio. Pisarlas es morir. ]
 		}
 	subtittle=
 		{
 			indice=	"18"
 			{
-			[Ver biomas]		=	goto biomas
+			[Ver las tierras]	=	goto biomas
 			[Volver al indice]	=	goto primeros_pasos
-			]
+			}
 		}
 	}
 
@@ -374,68 +388,68 @@
 	{
 	tittle=	"35"
 		{
-		[ Biomas ]
+		[ Las Tierras ]
 		}
 	text=	"16"
 		{
-		[ El mundo tiene 4 biomas. Cada uno con 5 zonas. 20 zonas en total. ]
-		[ Al completar las 5 zonas de un bioma desbloqueAs el siguiente. ]
-		[ Cada bioma puede generar una variante visual diferente. ]
+		[ El mundo tiene cuatro biomas. Cada uno con cinco zonas. Veinte zonas en total. ]
+		[ Al completar las cinco zonas de un bioma desbloqueas el siguiente. ]
+		[ Cada bioma puede generar una variante visual diferente. La tierra cambia. Vos no cambies. ]
 		}
 	subtittle=	"20"
 		{
-		[ Yermo (Bioma 1) ]
+		[ El Yermo â€” Bioma 1 ]
 		}
 	text=	"15"
 		{
-		[ Entorno desolado con poca cobertura. ]
+		[ Entorno desolado con poca cobertura. No hay donde esconderse facilmente. ]
 		[ Variante posible: Bosque Muerto. ]
-		[ Enemigos principales: Bandits, Wolves, Rabbits, Boars. ]
-		[ Jefe: Alpha Wolf (zona 5). ]
+		[ Enemigos: Bandits, Wolves, Rabbits, Boars. ]
+		[ Jefe: Alpha Wolf en la zona 5. ]
 		[ Recursos tipicos: madera, comida, municion basica. ]
 		}
 	subtittle=	"20"
 		{
-		[ Ciudad Muerta (Bioma 2) ]
+		[ Ciudad Muerta â€” Bioma 2 ]
 		}
 	text=	"15"
 		{
-		[ Ruinas urbanas con mucha cobertura pero muchos enemigos. ]
+		[ Ruinas urbanas. Mucha cobertura pero muchos enemigos escondidos entre ellas. ]
 		[ Variante posible: Aeropuerto Abandonado. ]
 		[ Enemigos: Soldiers, Snipers, Zombies, Runners. ]
-		[ Jefe: Boss Heavy (zona 5). ]
+		[ Jefe: Boss Heavy en la zona 5. ]
 		[ Recursos tipicos: armas, armaduras, electronica. ]
 		}
 	subtittle=	"20"
 		{
-		[ Zona Industrial (Bioma 3) ]
+		[ Zona Industrial â€” Bioma 3 ]
 		}
 	text=	"15"
 		{
-		[ Alta radiacion. Necesitas equipamiento anti-rad o perdes HP. ]
+		[ Alta radiacion. Sin equipamiento anti-rad empezas a perder HP constantemente. ]
 		[ Variante posible: Alcantarillas. ]
 		[ Enemigos: Mutants, Grenadiers, Prowlers. ]
-		[ Jefe: Boss Commander (zona 5). ]
-		[ Recursos tipicos: materiales de crafteo avanzado, anti-rad, mods. ]
+		[ Jefe: Boss Commander en la zona 5. ]
+		[ Recursos tipicos: materiales de fabricacion avanzada, anti-rad, mods de armas. ]
 		}
 	subtittle=	"20"
 		{
-		[ Bunker (Bioma 4) ]
+		[ El Bunker â€” Bioma 4 ]
 		}
 	text=	"15"
 		{
-		[ El ultimo desafio. Sin variantes, siempre es Bunker. ]
-		[ Enemigos: todos los tipos mas duros mezclados. ]
-		[ Jefe: Boss Mutant Lord (zona 5). El enemigo final del juego. ]
-		[ Al derrotar al jefe final se gana la partida. ]
+		[ El ultimo desafio. Sin variantes. Siempre es el Bunker. ]
+		[ Enemigos: todos los tipos mas duros, mezclados sin piedad. ]
+		[ Jefe: Boss Mutant Lord en la zona 5. El enemigo final del juego. ]
+		[ Al derrotarlo, la jornada termina. Podes descansar. ]
 		}
 	subtittle=
 		{
 			indice=	"18"
 			{
-			[Ver fauna]			=	goto fauna
+			[Ver la fauna]		=	goto fauna
 			[Volver al indice]	=	goto primeros_pasos
-			]
+			}
 		}
 	}
 
@@ -448,52 +462,52 @@
 		}
 	subtittle=	"20"
 		{
-		[ HUD en Juego ]
+		[ Lo que ves mientras caminas ]
 		}
 	text=	"15"
 		{
-		[ Barra roja — HP actual (maximo 100). ]
-		[ Barra azul — Stamina actual (maximo 100). ]
-		[ Barra verde — Nivel de radiacion acumulada. ]
-		[ Indicador de arma — Muestra el arma equipada y municion restante. ]
+		[ Barra roja â€” Tu HP actual. Maximo 100. Si llega a cero, todo termina. ]
+		[ Barra azul â€” Tu Stamina actual. Maximo 100. ]
+		[ Barra verde â€” Tu nivel de radiacion acumulada. Vigilala siempre. ]
+		[ Indicador de arma â€” Muestra el arma equipada y la municion restante. ]
 		[ El HUD aparece en la parte inferior de la pantalla. ]
 		}
 	subtittle=	"20"
 		{
-		[ Inventario (I) ]
+		[ El inventario â€” tecla I ]
 		}
 	text=	"15"
 		{
-		[ Grilla de 8 columnas x 5 filas = 40 slots. ]
-		[ Arrastra items entre slots para organizarlos. ]
+		[ Grilla de 8 columnas por 5 filas. 40 espacios en total. ]
+		[ Arrastra items entre espacios para organizarlos. ]
 		[ Arrastra un item sobre otro compatible para combinarlos o aplicar mods. ]
 		[ Arrastra carne cruda sobre la fogata en el mapa para cocinarla. ]
-		[ Slots de equipamiento: casco, chaleco, pantalon, guantes, primaria, secundaria. ]
+		[ Espacios de equipamiento: casco, chaleco, pantalon, guantes, arma primaria, arma secundaria. ]
 		}
 	subtittle=	"20"
 		{
-		[ Hotbar ]
+		[ La hotbar ]
 		}
 	text=	"15"
 		{
-		[ 5 slots de acceso rapido visibles en el inventario. ]
-		[ Los items en la hotbar se usan sin abrir el inventario. ]
+		[ 5 espacios de acceso rapido visibles en el inventario. ]
+		[ Los items en la hotbar se usan sin abrir el inventario. En combate eso salva vidas. ]
 		[ Arrastra items desde el inventario a la hotbar para asignarlos. ]
 		}
 	subtittle=	"20"
 		{
-		[ Mapa (M) ]
+		[ El mapa â€” tecla M ]
 		}
 	text=	"15"
 		{
-		[ Muestra la zona actual y la posicion del jugador. ]
-		[ Tab o 1 — Primera pestana del mapa. ]
-		[ 2 — Segunda pestana del mapa. ]
+		[ Muestra la zona actual y tu posicion. ]
+		[ Tab o 1 â€” Primera pestana del mapa. ]
+		[ 2 â€” Segunda pestana del mapa. ]
 		[ Usa la rueda del mouse para hacer zoom. ]
 		}
 	subtittle=	"20"
 		{
-		[ Menu de Pausa (Escape) ]
+		[ La pausa â€” tecla Escape ]
 		}
 	text=	"15"
 		{
@@ -506,7 +520,7 @@
 			indice=	"18"
 			{
 			[Volver al indice]	=	goto primeros_pasos
-			]
+			}
 		}
 	}
 
@@ -519,62 +533,64 @@
 		}
 	subtittle=	"20"
 		{
-		[ Refugio (Shelter) ]
+		[ El refugio ]
 		}
 	text=	"15"
 		{
-		[ Construi un refugio con el menu B (tecla B). ]
-		[ Materiales necesarios: 10 Palos + 60 Tablillas + 40 Hojas + 8 Cuerdas + 3 Troncos. ]
+		[ Construi un refugio con el menu B. ]
+		[ Materiales: 10 Palos + 60 Tablillas + 40 Hojas + 8 Cuerdas + 3 Troncos. ]
 		[ El refugio tarda 4 segundos en construirse. ]
-		[ Dentro del refugio podes descansar, guardar objetos y construir muebles. ]
-		[ Entrá al refugio con la tecla F. ]
+		[ Dentro podes descansar, guardar objetos y construir muebles. ]
+		[ Entra al refugio con la tecla F. ]
+		[ En nuestra tribu el refugio era sagrado. Tratalo con respeto. ]
 		}
 	subtittle=	"20"
 		{
-		[ Fogata (Campfire) ]
+		[ La fogata ]
 		}
 	text=	"15"
 		{
 		[ Materiales: 5 Palos + 5 Astillas. ]
-		[ Usala para cocinar carne cruda (arrastra desde inventario). ]
+		[ Usala para cocinar carne cruda arrastrando desde el inventario. ]
 		[ La fogata tambien da luz y calor en la oscuridad. ]
 		}
 	subtittle=	"20"
 		{
-		[ Muebles Interiores ]
+		[ Muebles interiores ]
 		}
 	text=	"15"
 		{
 		[ Dentro del refugio usa B para abrir el menu de construccion interior. ]
-		[ Banco interior — 2 Palos + 1 Tablilla. ]
+		[ Banco interior â€” 2 Palos + 1 Tablilla. ]
 		}
 	subtittle=	"20"
 		{
-		[ Estructuras Colocables ]
+		[ Estructuras colocables ]
 		}
 	text=	"15"
 		{
-		[ Banco (Bench) — Crafteado en banco de trabajo. Se coloca con click izquierdo. ]
-		[ Empalizada (Palisade) — Seccion de muro de madera. Sirve como barrera. ]
-		[ El fantasma verde indica posicion valida. Rojo indica posicion bloqueada. ]
+		[ Banco (Bench) â€” Se coloca con click izquierdo. ]
+		[ Empalizada (Palisade) â€” Seccion de muro de madera. Sirve como barrera. ]
+		[ El fantasma verde indica posicion valida. El rojo indica posicion bloqueada. ]
 		}
 	subtittle=	"20"
 		{
-		[ Plantacion de Arboles ]
+		[ Plantar arboles ]
 		}
 	text=	"15"
 		{
 		[ Las bellotas (Acorn) se encuentran en el mapa. ]
-		[ Con una bellota en el inventario, abrí el menu B para plantarla. ]
+		[ Con una bellota en el inventario, abre el menu B para plantarla. ]
 		[ Un arbol plantado crecera con el tiempo y podras talarlo para obtener troncos. ]
+		[ Plantar es pensar en el futuro. Algo que los bandidos nunca aprendieron. ]
 		}
 	subtittle=
 		{
 			indice=	"18"
 			{
-			[Ver crafteo]		=	goto crafteo
+			[Ver fabricacion]	=	goto crafteo
 			[Volver al indice]	=	goto primeros_pasos
-			]
+			}
 		}
 	}
 
@@ -583,44 +599,44 @@
 	{
 	tittle=	"35"
 		{
-		[ Fauna ]
+		[ La Fauna ]
 		}
 	subtittle=	"20"
 		{
-		[ Conejo (Rabbit) ]
+		[ El conejo ]
 		}
 	text=	"15"
 		{
-		[ Completamente pasivo. Huye al detectar al jugador a 130px. ]
-		[ HP: 10. Muy rapido (190 px/s). ]
-		[ Al morir puede dejar Cadaver de Conejo en el inventario. ]
-		[ Con el Cadaver usa F cerca del cuerpo para despellejarlo. ]
-		[ Despellejar tarda 2.5 segundos. Obtenes Carne de Conejo (cruda). ]
+		[ Completamente pasivo. Huye al detectarte a 130 pixeles de distancia. ]
+		[ HP: 10. Muy rapido, 190 pixeles por segundo. ]
+		[ Al morir puede dejar un Cadaver de Conejo en el inventario. ]
+		[ Con el cadaver usa F cerca del cuerpo para despellejarlo. ]
+		[ Despellejar tarda 2.5 segundos. Obtienes Carne de Conejo cruda. ]
 		[ Carne cruda de conejo cura 5 HP. Cocinada cura 18 HP. ]
-		[ Mejor cazarlo con la Resortera para no gastar municion de fuego. ]
+		[ Cazalo con la Resortera para no gastar municion de fuego. ]
 		}
 	subtittle=	"20"
 		{
-		[ Jabali (Boar) ]
+		[ El jabali ]
 		}
 	text=	"15"
 		{
-		[ En manada es menos agresivo (rango de vision 120px). ]
-		[ Solitario se vuelve muy peligroso (rango 220px, carga directo). ]
-		[ HP: 80. Velocidad: 115 px/s. Daño: 25. ]
-		[ Al morir dropea Carne de Jabali cruda (cura 8 HP). Cocinada cura 28 HP. ]
+		[ En manada es menos agresivo. Rango de vision de 120 pixeles. ]
+		[ Solitario se vuelve muy peligroso. Rango de 220 pixeles y carga directo. ]
+		[ HP: 80. Velocidad: 115 pixeles por segundo. Dano: 25. ]
+		[ Al morir suelta Carne de Jabali cruda. Cura 8 HP. Cocinada cura 28 HP. ]
 		}
 	subtittle=	"20"
 		{
-		[ Lobo (Wolf) ]
+		[ El lobo ]
 		}
 	text=	"15"
 		{
-		[ Fauna hostil que ataca en manada. Los lobos se comunican a 340px. ]
-		[ HP: 55. El mas rapido del juego (145 px/s). ]
-		[ Su mordida ralentiza al jugador al 75% de velocidad por 2 segundos. ]
-		[ Al morir dropea Carne de Lobo cruda (cura 6 HP). Cocinada cura 22 HP. ]
-		[ Cuidado: si hay un Lobo Solitario (30% de probabilidad) es mas unpredecible. ]
+		[ Fauna hostil que ataca en manada. Los lobos se comunican a 340 pixeles. ]
+		[ HP: 55. El mas rapido del juego, 145 pixeles por segundo. ]
+		[ Su mordida ralentiza al jugador al 75 porciento de velocidad por 2 segundos. ]
+		[ Al morir suelta Carne de Lobo cruda. Cura 6 HP. Cocinada cura 22 HP. ]
+		[ Cuidado: si hay un Lobo Solitario, con un 30 porciento de probabilidad, es mas impredecible. ]
 		}
 	subtittle=	"20"
 		{
@@ -628,10 +644,10 @@
 		}
 	text=	"15"
 		{
-		[ Solo el Conejo puede ser despellejado en el inventario como item. ]
-		[ Para animales grandes (Jabali, Lobo) interactua con F sobre el cadaver. ]
-		[ El rango de interaccion con cadaveres es de 48px. ]
-		[ No podes despellejar si hay enemigos activos cerca — priorizá tu seguridad. ]
+		[ Solo el conejo puede despellejarse desde el inventario como item. ]
+		[ Para animales grandes como el jabali y el lobo, interactua con F sobre el cadaver. ]
+		[ El rango de interaccion con cadaveres es de 48 pixeles. ]
+		[ No podes despellejar si hay enemigos activos cerca. Primero tu seguridad. ]
 		}
 	subtittle=
 		{
@@ -639,7 +655,63 @@
 			{
 			[Ver enemigos]		=	goto enemigos
 			[Volver al indice]	=	goto primeros_pasos
-			]
+			}
+		}
+	}
+
+
+	historia=
+	{
+	tittle=	"38"
+		{
+		[ Historia del Portador ]
+		}
+	subtittle=	"20"
+		{
+		[ Lo que ocurrio antes de que empezara el juego ]
+		}
+	text=	"15"
+		{
+		[ El era el lider de la Tribu Jeroky. ]
+		[ Una tribu joven, recien formada, construida con esfuerzo y sangre propia. ]
+		[ Tenian su tierra. Sus rituales. Su fuego. Su gente. ]
+		[ Y el tenia a su mujer. La razon por la que cada manana valia la pena. ]
+		}
+	text=	"15"
+		{
+		[ Pero una noche llegaron los bandidos. ]
+		[ Sin avisar. Sin razon. Solo con fuego y violencia. ]
+		[ Masacraron a la tribu. A todos. ]
+		[ Le quitaron lo unico que no tenia precio. ]
+		}
+	text=	"15"
+		{
+		[ El logro escapar. No por valentia. Por instinto. ]
+		[ Corrio sin saber a donde. Corrio hasta que los gritos dejaron de escucharse. ]
+		[ Corrio hasta que el bosque se volvio oscuro y silencioso. ]
+		[ Y siguio corriendo. ]
+		}
+	text=	"15"
+		{
+		[ Ya no escuchaba nada. ]
+		[ Ya no habia nada atras para volver. ]
+		[ Se perdio en la oscuridad del bosque sin darse cuenta. ]
+		[ Y la oscuridad lo recibio. ]
+		}
+	text=	"15"
+		{
+		[ Ahi es donde comenzamos nosotros. ]
+		[ Vos tomas el control de ese hombre. ]
+		[ Un hombre que lo perdio todo, que no tiene nada, que no sabe donde esta. ]
+		[ Pero que todavia respira. ]
+		[ Y mientras respira, existe una razon para seguir. ]
+		}
+	subtittle=
+		{
+			indice=	"18"
+			{
+			[Volver al indice]	=	goto primeros_pasos
+			}
 		}
 	}
 
