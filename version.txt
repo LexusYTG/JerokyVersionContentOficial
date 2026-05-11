@@ -52,5 +52,13 @@ version_ID=
 source=
             "https://drive.usercontent.google.com/uc?id=13NJXZatFv4UN8bIjY72sdBxmhL59U6y0&export=download"
 Descripción=
-             " !VERSION BETA! GRAN MEJORA EN JUGABLIDAD ,SE HAN COMPLETADO VAIOS SISTEMAS SE HAN CORRIGIDO VARIOS ERRORES Y SE HA REESCRITO UN 20 % DEL MOTOR "
+             " !VERSION BETA! GRAN MEJORA EN JUGABLIDAD ,SE HAN COMPLETADO VARIOS SISTEMAS SE HAN CORRIGIDO VARIOS ERRORES Y SE HA REESCRITO UN 20 % DEL MOTOR "
+}
+{
+version_ID=
+            "1.0.7"
+source=
+            "https://drive.usercontent.google.com/uc?id=1u-h5IQApgq6bAWdGKvtMNHraaijmcj89&export=download"
+Descripción=
+             " !VERSION BETA! GRAN MEJORA EN JUGABLIDAD ,SE HAN INPLEMENTADO VARIOS SISTEMAS ,SE HAN CORRIGIDO VARIOS ERRORES Y SE HAN OMPLEMENENTADO OPTIMIZACIONES CRITICAS EN EL MOTOR "
 }
