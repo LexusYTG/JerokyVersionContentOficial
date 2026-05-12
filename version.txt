@@ -54,9 +54,16 @@ source=
 Descripción=
              " !VERSION BETA! GRAN MEJORA EN JUGABLIDAD ,SE HAN COMPLETADO VARIOS SISTEMAS SE HAN CORRIGIDO VARIOS ERRORES Y SE HA REESCRITO UN 20 % DEL MOTOR "
 }
+version_ID=
+            "1.0.8"
+source=
+            "https://drive.usercontent.google.com/uc?id=1u-h5IQApgq6bAWdGKvtMNHraaijmcj89&export=download"
+Descripción=
+             " !VERSION BETA! "
+}
 {
 version_ID=
-            "1.0.1"
+            "1.0.8"
 source=
             "https://drive.usercontent.google.com/uc?id=1upGPs1hb0swS1fk0Itts2LC6LBB2zAYE&export=download"
 Descripción=
