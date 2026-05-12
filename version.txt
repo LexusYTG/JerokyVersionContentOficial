@@ -56,9 +56,10 @@ Descripción=
 }
 {
 version_ID=
-            "1.0.7"
+            "1.0.1"
 source=
-            "https://drive.usercontent.google.com/uc?id=1u-h5IQApgq6bAWdGKvtMNHraaijmcj89&export=download"
+            "https://drive.usercontent.google.com/uc?id=1upGPs1hb0swS1fk0Itts2LC6LBB2zAYE&export=download"
 Descripción=
-             " !VERSION BETA! GRAN MEJORA EN JUGABLIDAD ,SE HAN INPLEMENTADO VARIOS SISTEMAS ,SE HAN CORRIGIDO VARIOS ERRORES Y SE HAN OMPLEMENENTADO OPTIMIZACIONES CRITICAS EN EL MOTOR "
+             " !VERSION BETA! Estoy sometiendo a un escrutinio el motor y solucionando errores de memoey leaks ,si ves crashes ,reportalo porfavor con una captua del cash"
 }
+
