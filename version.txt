@@ -60,7 +60,7 @@ version_ID=
 source=
             "https://drive.usercontent.google.com/uc?id=1u-h5IQApgq6bAWdGKvtMNHraaijmcj89&export=download"
 Descripción=
-             " !VERSION BETA! "
+             " !VERSION BETA! he implementado un sistema de estados alterados que permitira hacer cosas muy loocas en futuras versiones"
 }
 {
 version_ID=
