@@ -70,4 +70,11 @@ source=
 Descripción=
              " !VERSION BETA! Estoy sometiendo a un escrutinio el motor y solucionando errores de memoey leaks ,si ves crashes ,reportalo porfavor con una captua del cash"
 }
-
+{
+version_ID=
+            "1.0.9"
+source=
+            "https://drive.usercontent.google.com/uc?id=1qW_ibUNOKS2Tzpbou6j3lKP1J6wOXibk&export=download"
+Descripción=
+             " !VERSION BETA! se ha mejorado la ux y se han reescrito las animaciones  y gran parte de las texturas del juego ademas de correxiones muy agresivas al motor y a la generacion de mapa"
+}
