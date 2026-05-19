@@ -78,3 +78,11 @@ source=
 Descripción=
              " !VERSION BETA! se ha mejorado la ux y se han reescrito las animaciones  y gran parte de las texturas del juego ademas de correxiones muy agresivas al motor y a la generacion de mapa"
 }
+{
+version_ID=
+            "1.1.0"
+source=
+            "https://drive.usercontent.google.com/uc?id=1Lodc58ISLV_MyddgSQnL7Fb3i_DOZ1W9&export=download"
+Descripción=
+             " !VERSION BETA! pequeñas mejoras en la interfaz y en la jugabilidad"
+}
